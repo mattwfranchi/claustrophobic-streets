@@ -74,16 +74,16 @@ Other imprecision comes from "old" data; for most of the clutter types, we're ab
 
 Let's start with some spatial visualizations. Below, we map our calculated levels of claustrophobia at the Neighborhood Tabulation Area (NTA) level. NTAs are roughly approximate to New Yorkers' mental maps of neighborhoods. Some interesting trends emerge that made sense at first glance, at least for me! Namely, most of Midtown Manhattan sees the highest 'claustrophobia' levels. This aligns with my anecdotal experience of trudging through crowds in and around Times Square that were quite literally stationary for 15 seconds at a time. However, at this small granularity, we can't really see where other hotspots emerge clearly, at least from the map's coloring. Let's try zooming in.
 
-[Projected Claustrophobia of NYC Streets, by Neighborhood Tabulation Area](../figures/claustrophobic-streets/relative_claustrophobia_by_neighborhood.pdf)
+[Projected Claustrophobia of NYC Streets, by Neighborhood Tabulation Area](../figures/relative_claustrophobia_by_neighborhood.pdf)
 
 Now, we map our calculated levels of claustrophobia at the Census Tract (CT) level. CTs are much smaller; in 2020, NYC was composed of 2,327 of them. Here, more interesting visual trends emerge. I see areas in Queens colored in red that I remember being extremely crowded when I visited; including Jackson Heights (near LaGuardia Airport) and Flushing (much further out in Queens, at the end of the 7 train). Downtown Brooklyn and Williamsburg also see notably higher-than-average levels of claustrophobia, which lines up with my own experiences. For both maps, Staten Island tends to be colored entirely in blue, meaning lower-than-average claustrophobia; I've still not taken the ferry over, so I won't make any definitive claims, but this at least aligns with the borough's higher usage of cars, relative to the rest of the city.
 
-[Projected Claustrophobia of NYC Streets, by Census Tract](../figures/claustrophobic-streets/relative_claustrophobia_by_census_tract.pdf)
+[Projected Claustrophobia of NYC Streets, by Census Tract](../figures/relative_claustrophobia_by_census_tract.pdf)
 
 Lastly, for name recognition, we plot the top 20 and bottom 20 neighborhoods, relative to the city average. See if your neighborhood pops up in either list!
 
-[Twenty Most Claustrophobic Neighborhoods in NYC](../figures/claustrophobic-streets/top_20_nyc_neighborhoods.pdf)
+[Twenty Most Claustrophobic Neighborhoods in NYC](../figures/top_20_nyc_neighborhoods.pdf)
 
-[Twenty Least Claustrophobic Neighborhoods in NYC](../figures/claustrophobic-streets/bottom_20_nyc_neighborhoods.pdf)
+[Twenty Least Claustrophobic Neighborhoods in NYC](../figures/bottom_20_nyc_neighborhoods.pdf)
 
 For some additional plots, including zoom-ins of each borough, and density maps of foot traffic and street clutter, check out the GitHub repository for this project at [github.com/mattwfranchi/claustrophobic-streets](https://github.com/mattwfranchi/claustrophobic-streets). If you have any suggestions or questions, feel free to email me at mwf62 AT cornell.edu, or open an issue on the GitHub repository. Thanks for reading!
